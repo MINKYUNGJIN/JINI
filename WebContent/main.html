@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 소스보기 많이 이용하기!!!! -->
+    <style>
+    
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    ul{
+        list-style-type: none; 
+        /* 앞에 점이 사라짐 */
+        margin-left: -15px;
+        margin-top: 1px;
+        margin-bottom: -8px;
+        padding: 14px 16px;
+        background-color: #333333;
+    }
+
+    li{
+        display: inline;
+        /* 수평으로 바뀜 */
+        /* background-color: gray; */
+    }
+
+    li > a{
+        color: white;
+        text-decoration: none;
+        /* 밑줄이 사라짐 */
+        text-align: center;
+        padding: 14px 16px;
+    }
+
+    li > a:hover{
+        background-color: rgb(241, 154, 9);
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+        opacity: 0.6;
+        margin-top: 8px;       
+    }
+
+    .container{
+        position: relative;
+    }
+
+    .center{
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="http://">Logout</a></li>
+        <li><a href="/NewLogin.jsp">Login</a></li>
+        
+        <!-- <li><a href="http://" style="float:right">Logout</a></li>
+        <li><a href="./login/login.html" style="float:right">Login</a></li> -->
+        <!-- <li><a href="http://" style="float:right">Logout</a></li> -->
+        <li><a href="http://">News</a></li>
+        <li><a href="./board/board.html">Guide</a></li>
+        <li><a href="http://">Community</a></li>
+        <li><a href="http://">FAQ</a></li>
+    </ul>
+    <div class="container">
+        <img src="http://i0.kym-cdn.com/entries/icons/original/000/023/421/PLAYERUNKNOWNS-BATTLEGROUNDS-12937706.jpg" alt="">
+        <!-- <div class="center"></div> -->
+    </div>
+</body>
+</html>
